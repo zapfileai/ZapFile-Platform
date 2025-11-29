@@ -3,7 +3,7 @@
 ZapFile-Platform powers the backend of **ZapFile.ai**, providing secure session handling and signaling for peer-to-peer file transfers.
 
 🌐 Website: https://zapfile.ai  
-📄 Docs & updates: https://zapfile.ai/docs
+📄 Blog: https://zapfile.ai/blog
 
 ---
 
