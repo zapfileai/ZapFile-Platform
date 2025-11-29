@@ -1,42 +1,33 @@
-# ZapFile-Platform
+# ZapFile-Platform — Backend & Signaling Infrastructure
 
-ZapFile-Platform contains the backend and signaling layer that powers the file-sharing experience on **ZapFile.ai**.  
-It is responsible for helping two devices find each other and establish a secure, direct peer-to-peer connection.
+ZapFile-Platform powers the backend of **ZapFile.ai**, providing secure session handling and signaling for peer-to-peer file transfers.
 
 🌐 Website: https://zapfile.ai  
-📦 GitHub Organization: https://github.com/zapfileai
+📄 Docs & updates: https://zapfile.ai/docs
 
 ---
 
-## Purpose of This Project
+## Purpose
 
-While ZapFile’s main interface runs in the browser, direct P2P communication still needs a lightweight coordination service.  
-ZapFile-Platform provides:
+The platform ensures:
 
-- Session creation and validation  
-- WebRTC signaling  
-- Temporary connection metadata  
-- Infrastructure logic for fast and private file transfers  
-
-No files are stored or cached — only the minimal data required to connect two peers.
+- Reliable WebRTC signaling  
+- Session management for P2P transfers  
+- Minimal server involvement — files never stored  
+- Fast and secure connectivity between peers
 
 ---
 
-## Key Components
+## Components
 
-- **Signaling Service**  
-  Helps browsers exchange WebRTC offer/answer data.
-
-- **Session Manager**  
-  Handles creation, expiration, and validation of share sessions.
-
-- **Routing Utilities**  
-  Simplifies NAT traversal and cross-network connectivity.
-
-- **Developer Tools**  
-  Logging, debugging helpers, and deployment scripts.
+- Signaling service for WebRTC connections  
+- Session and token manager  
+- Developer tools and deployment scripts
 
 ---
 
-## Architecture Summary
+## Getting Started
 
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/zapfileai/ZapFile-Platform
